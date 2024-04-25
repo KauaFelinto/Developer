@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Felinto</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1>Kauã</h1>
+
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skills">Experience</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <div class="perfil">
+            <img id="icon" src="./images/me-port.jpg" alt="perfil">
+            <h1>I do code and make <br> content <span>about it!</span></h1>
+                <p>I am a seasoned full-stack software engineer with over 
+                    8 years of professional experience, specializing in backend development. 
+                    My expertise lies in crafting robust and scalable SaaS-based 
+                    architectures on the Amazon AWS platform.</p>
+                    <div class="btns">
+                        <button id="get">Get in Touch</button>
+                        <button id="cv">Download CV</button>
+                    </div>
+        </div>
+        <div class="skills">
+            <h3>Experience with</h3>
+            <ul>
+                <li><i class='bx bxl-javascript'></i></li>
+                <li><i class='bx bxl-react' ></i></li>
+                <li><i class='bx bxl-typescript' ></i></li>
+                <li><i class='bx bxl-angular' ></i></li>
+                <li><i class='bx bxl-css3' ></i></li>
+                <li><i class='bx bxl-sass' ></i></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2>Projetos</h2>
+        <div style="display:block;" class="center">
+            <div style="max-width: 1200px;" class="container-slider">
+                <div class="container-slider-single">
+                    <img src="./images/iphone.PNG" alt="img">
+                    <div class="retangle">
+                        <p>CLICK HERE TO VISIT</p>
+                        <h3>VTEX</h3>
+                    </div>
+                </div>
+
+                <div class="container-slider-single">
+                    <img src="./images/vtexx.PNG" alt="img">
+                    <div class="retangle">
+                        <p>CLICK HERE TO VISIT</p>
+                        <h3>VTEX</h3>
+                    </div>
+                </div>
+
+                <div class="container-slider-single">
+                    <img src="./images/nft.PNG" alt="img">
+                    <div class="retangle">
+                        <p>CLICK HERE TO VISIT</p>
+                        <h3>VTEX</h3>
+                    </div>
+                </div>
+
+                <div class="container-slider-single">
+                    <img src="./images/blog.PNG" alt="img">
+                    <div class="retangle">
+                        <p>CLICK HERE TO VISIT</p>
+                        <h3>VTEX</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="experiences">
+        <h1>Habilidades</h1>
+        <div class="experience">
+            <h2>Lead Software Engineer at Google</h2>
+            <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core 
+                search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy 
+                and efficiency, optimizing user experiences for millions of users worldwide.</p>
+        </div>
+
+        <div class="experience">
+            <h2>Lead Software Engineer at Google</h2>
+            <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core 
+                search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy 
+                and efficiency, optimizing user experiences for millions of users worldwide.</p>
+        </div>
+
+        <div class="experience">
+            <h2>Lead Software Engineer at Google</h2>
+            <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core 
+                search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy 
+                and efficiency, optimizing user experiences for millions of users worldwide.</p>
+        </div>
+        
+    </section>
+
+    <section class="contact">
+        <h1>Contato</h1>
+        <form action="">
+            <input type="email" placeholder="seu e-mail"/>
+            <textarea placeholder="sua mensagem" cols="30" rows="10"></textarea>
+            <button id="send">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social">
+            <ul class="social-links">
+                <li><a href="#"><i class='bx bxl-github'></i></a></li>
+                <li><a href="#"><i class='bx bxl-linkedin-square' ></i></a></li>
+                <li><a href="#"><i class='bx bxl-gmail'></i></a></li>
+            </ul>
+            <p>Copright by Kaua@2024</p>
+        </div>
+    </footer>
+
+    <script src="./jquery.js"></script>
+    <script src="./slick.min.js"></script>
+    <script>
+            $('.container-slider').slick({
+                dots: true,
+                arrows:false,
+                speed:1000,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                pauseOnHover:false,
+                responsive: [
+                            {
+                              breakpoint: 768,
+                              settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                              }
+                            }],
+                });
+    </script>
+</body>
+</html>
