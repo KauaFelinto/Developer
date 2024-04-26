@@ -1,0 +1,117 @@
+@media (max-width: 720px) {
+    .head{
+        display: none;
+    }
+
+    section.home{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .perfil h1 {
+        font-size: 30px;
+    }
+    .perfil p {
+        width: 350px;
+        font-size: 12px;
+    }
+
+    .btns button {
+        width: 100px;
+        height: 30px;
+        font-size: 11px;
+    }
+    .center{
+        display: flex;
+        align-items: center;
+    }
+    
+
+    .container-slider{
+        width: 500px;
+    }
+
+    .experience{
+        width: 400px;
+    }
+
+    .experience h2{
+        font-size: 20px;
+    }
+    .experience p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 650px){
+    .container-slider{
+        width: 400px;
+    }
+}
+
+@media (max-width: 390px){
+    .container-slider{
+        width: 280px;
+    }
+    .perfil{
+        margin: 50px;
+    }
+
+    .perfil p{
+        font-size: 10px;
+    }
+
+    .perfil h1{
+        font-size: 20px;
+    }
+    .experience{
+        width: 300px;
+    }
+
+    .experience h2{
+        font-size: 20px;
+    }
+    .experience p{
+        font-size: 10px;
+    }
+    .skills ul li, i{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    section.projetos{
+        margin-top: 0;
+    }
+    footer{
+        height: 80px;
+        padding: 20px;
+    }
+    .social{
+        gap: 50px;
+    }
+    .social p{
+        font-size: 11px;
+        margin-top: 15px;
+    }
+    .social-links{
+        gap: 20px;
+    }
+
+    #send{
+        width: 180px;
+        height: 40px;
+    }
+
+    .contact > form > input[type=email]{
+        width: 280px;
+    }
+    .contact > form > textarea{
+        width: 280px;
+    }
+}
