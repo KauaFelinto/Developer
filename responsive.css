@@ -114,4 +114,18 @@
     .contact > form > textarea{
         width: 280px;
     }
+
+    #up{
+        font-size: 35px;
+        margin-left: 50px;
+        margin-top: 6px;
+    }
+
+    .skills > ul > li, i{
+        font-size: 30px;
+    }
+
+    .social p{
+        margin-top: 4px;
+    }
 }
